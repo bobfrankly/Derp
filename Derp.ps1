@@ -2,6 +2,6 @@
 
 
 foreach ($p in $filePaths) {
-    Get-ChildItem $p
+    testFunction -allTheDerps $p
 }
 
